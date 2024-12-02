@@ -133,8 +133,8 @@ body{
 
 #receber{
     position: absolute;
-    top: 188px;
-    right: 400px;
+    right: -60px;
+    bottom: -35px;
 }
 
 #receber button{
