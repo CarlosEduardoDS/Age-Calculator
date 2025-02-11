@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="js/scripts.js" defer></script>
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <form>
+
+      <div class="data-solicitada">
+
+        <div id="dias-recebidos" class="recebidos">
+          DAY
+          <input id="digiteDias" type="number" placeholder="DD" required>
+          <div class="erro" id="erro-dias">This field is required</div>
+        </div>
+
+        <div id="meses-recebidos" class="recebidos">
+          MONTH
+          <input id="digiteMeses" type="number" placeholder="MM" required>
+          <div class="erro" id="erro-meses">This field is required</div>
+        </div>
+
+        <div id="anos-recebidos" class="recebidos">
+          YEAR
+          <input id="digiteAnos" type="number" placeholder="YYYY" required>
+          <div class="erro" id="erro-anos">This field is required</div>
+        </div>
+
+      </div>
+
+      <div class="line">
+        <div id="receber">
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </form>
+
+    <div class="data-entregue">
+      <div id="anos-entregues" class="entregues">
+        <span id="quantos-anos" class="valor-data">--</span> years
+      </div>
+      <div id="meses-entregues" class="entregues">
+        <span id="quantos-meses" class="valor-data">--</span> months
+      </div>
+      <div id="dias-entregues" class="entregues">
+        <span id="quantos-dias" class="valor-data">--</span> days
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
